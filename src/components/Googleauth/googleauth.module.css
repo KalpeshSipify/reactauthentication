@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.buttondivcontainer {
+  width: 53%;
+  height: 2.5rem;
+  border-radius: 1.2rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+}
+.googlelogo {
+  width: 20%;
+  height: inherit;
+  background-color: #4285f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.loginbutton {
+  width: 80%;
+  height: inherit;
+  background-color: #4285f4;
+  border: none;
+  font-size: 1rem;
+  font-family: monospace;
+  text-align: start;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
